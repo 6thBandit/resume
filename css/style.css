@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 20%;
+  height: 100vh;
+  background-color: #2b65e0;
+  padding-top: 4em;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image img {
+  border-radius: 50%;
+}
+
+.name-title {
+  margin-top: 1.5em;
+  margin-left: 2em;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.job-title {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+nav {
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+section {
+  float: right;
+  width: 80%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+article {
+  background-color: #4ca8f3;
+  margin-top: 1em;
+  border-radius: 1em;
+  padding: 0.4em 2em 2em 2em;
+}
+
+h3 {
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.7em;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.skill ul,
+.experience ul {
+  padding-left: 2em;
+}
+
+.experience {
+  margin-bottom: 1em;
+}
