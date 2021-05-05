@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+html {
+  scroll-padding-top: 1em;
 }
 
-header {
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4c4e61;
+}
+
+aside {
   width: 20%;
   height: 100vh;
   background-color: #2b65e0;
@@ -46,14 +51,14 @@ header {
 }
 
 nav {
-  margin-top: 5em;
+  margin-top: 3em;
   margin-left: 2em;
 }
 
 nav ul li {
   list-style: none;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   margin-top: 1em;
 }
@@ -64,32 +69,43 @@ a {
   cursor: pointer;
 }
 
-section {
+li a:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+main {
   float: right;
   width: 80%;
   padding-left: 2em;
   padding-right: 2em;
 }
 
-article {
-  background-color: #4ca8f3;
-  margin-top: 1em;
-  border-radius: 1em;
+section {
+  margin-top: 2em;
+  border-top: 1em solid hsl(212, 86%, 64%);
   padding: 0.4em 2em 2em 2em;
+  border-radius: 3px;
+  box-shadow: 0 5px 5px 0px #a3a5ae;
 }
 
 h3 {
   letter-spacing: 0.3rem;
   font-size: 1.5rem;
   font-weight: 800;
-  color: #fff;
+  color: #f64747;
   margin-bottom: 0.7em;
 }
 
 p {
   font-size: 0.9rem;
+  color: #4c4e61;
 }
 
+b,
+em {
+  font-size: 1rem;
+}
 .skill ul,
 .experience ul {
   padding-left: 2em;
