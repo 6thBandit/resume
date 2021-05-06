@@ -6,6 +6,7 @@
 
 html {
   scroll-padding-top: 1em;
+  scroll-behavior: smooth;
 }
 
 body {
